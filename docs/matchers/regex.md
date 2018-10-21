@@ -14,7 +14,7 @@ parsers:
 
 ## About Regular Expression Matcher 
 
-This is the simplest matcher available in opsdroid. It matches the message from the user against a regular expression. If the regex matches, the function is called.
+This is the simplest matcher available in opsdroid. It matches the message from the user against a regular expression. If the regex matches then the function is called.
 
 _note: The use of position anchors(`^` or `$`) are encouraged when using regex to match a function. This should prevent opsdroid to be triggered with every use of the matched regular expression_
 
